@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpFnQsdXHbUOMQwzj58rb+ZfQqsLXYgnhdVUe9Tkt4n7TzXgQHyKjYPxTQFZZ3NLEXNfWMeAyCOywv223ZNIw7wU=
+SHA256 (Pkgfile) = 7f668bdb3e1452583fef26ef2d4619b41e85a0170cdea60b7d498168cc29032e
+SHA256 (.footprint) = 97250a14297ddb70e97f9deac2ebf3d7cfb2406322c0040a446279e2fdfd5c69
+SHA256 (gnupg-2.4.5.tar.bz2) = f68f7d75d06cb1635c336d34d844af97436c3f64ea14bcb7c869782f96f44277

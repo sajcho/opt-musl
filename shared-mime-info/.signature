@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpMnjMOzM54kmWgVuDogb6eyy/kvsF9UruSjM06JIFJb4SML2xUJTeKf1JpRWObuTUKJ2kqUZxFliPuYfEVeK8gY=
+SHA256 (Pkgfile) = b2d410bfffa29334c459ab518c108526a1bbbc9680faf6e77b3842a902e92c35
+SHA256 (.footprint) = 08a748c1ed7af0b281888516c512131868a71b99ba18c50a8dfd4919d6cffa49
+SHA256 (shared-mime-info-2.4.tar.gz) = 531291d0387eb94e16e775d7e73788d06d2b2fdd8cd2ac6b6b15287593b6a2de
+SHA256 (no-xmlto.patch) = 7b1b6ddcf10e4bc726131f9de2ffae6c4cab6b0b74459b3391044e74760cd814

@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpBdvSO6XhfAALZ/OlqMAN3RIh8k4MLh+/TfFiicdSY3ChDUVGckA8lnp3wfy3ey6B5raFHANGhtarB74Vr8TXwc=
+SHA256 (Pkgfile) = c4b7344dedc047cf25df611240d3d8d78e621e5376bef1b39a7510f9075e867f
+SHA256 (.footprint) = 90a052392c9a78dda118f9df4ffa7ef56194deb45bcf671d89e09571f87d967d
+SHA256 (pinentry-1.3.0.tar.bz2) = 9b3cd5226e7597f2fded399a3bc659923351536559e9db0826981bca316494de
+SHA256 (pinentry) = 4f1b90a40d2cdf8a96cd3f988b6059ada0cf07c0008469e5a4951cbbeb5cf660

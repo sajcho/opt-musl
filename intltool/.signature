@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpHfuDjnB2l4vEzbCVEdbPXZy5+95Pm9m4EsODOVDcptIADPabkp+6fCcl4rSA1+cDLvmC5yGK2W2AQnfqLxJPgo=
+SHA256 (Pkgfile) = bbc487d54baa24e4b9f1f0019484992f46ed8a2022a028678591a35d48cb9c0d
+SHA256 (.footprint) = 647b419419a77beccead82fba60683ba623ed23dd16e2bdf2541e12c54546924
+SHA256 (intltool-0.51.0.tar.gz) = 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd
+SHA256 (intltool-perl-regexp.patch) = 7c6bcd53f886d079e6e3933ec38d4ee9267ee5f003b3b2099a33a3cbf264fe26
