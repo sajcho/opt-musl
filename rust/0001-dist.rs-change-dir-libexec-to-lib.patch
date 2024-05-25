@@ -1,0 +1,25 @@
+From 26c228363024b5a97c85b56b159ec7f5f67f4ef0 Mon Sep 17 00:00:00 2001
+From: sajcho <saux.aarch64@gmail.com>
+Date: Tue, 7 May 2024 15:10:30 +0200
+Subject: [PATCH] dist.rs: change dir libexec to lib
+
+---
+ src/bootstrap/src/core/build_steps/dist.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/bootstrap/src/core/build_steps/dist.rs b/src/bootstrap/src/core/build_steps/dist.rs
+index 012d64e5344..a077e67e49d 100644
+--- a/src/bootstrap/src/core/build_steps/dist.rs
++++ b/src/bootstrap/src/core/build_steps/dist.rs
+@@ -424,7 +424,7 @@ fn prepare_image(builder: &Builder<'_>, compiler: Compiler, image: &Path) {
+                 },
+                 builder.kind,
+             ) {
+-                builder.install(&ra_proc_macro_srv, &image.join("libexec"), 0o755);
++                builder.install(&ra_proc_macro_srv, &image.join("lib"), 0o755);
+             }
+ 
+             let libdir_relative = builder.libdir_relative(compiler);
+-- 
+2.45.0
+
