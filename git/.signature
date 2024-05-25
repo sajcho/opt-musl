@@ -1,0 +1,7 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpHHLKiqep4k6eZv0N/u13SFOZ9l+zLCifVgDHsODf+k4cSnAVM9jdaWsg3DG0ahz55Pkcv21Hk4+VydunRQldQ8=
+SHA256 (Pkgfile) = 2f1325de7b5889d7d93030db522f09d986be17343cc14bda2962bdbfd2be70c7
+SHA256 (.footprint) = 09351659be465892ac8f9e1fbc13cdbec37c506ea93cc90ed86a6761550f7ad4
+SHA256 (git-2.45.0.tar.xz) = 0aac200bd06476e7df1ff026eb123c6827bc10fe69d2823b4bf2ebebe5953429
+SHA256 (git-manpages-2.45.0.tar.xz) = 44b34e9a1f244c2d184afa6de5d93f226fc449f046d05869d980f6203397a7f4
+SHA256 (git.driver) = 432108f8c5f5abeb429cab25181b43ee42060d46fa7fbe7e4b02790b56f61e8a
