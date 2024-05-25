@@ -1,0 +1,30 @@
+# Description:	Locales support for musl
+# URL:		https://git.adelielinux.org/adelie/musl-locales/-/wikis/home
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake gettext samurai
+
+name=musl-locales
+version=0.1.0
+release=1
+source=(https://git.adelielinux.org/adelie/musl-locales/-/archive/${version}/${name}-${version}.tar.bz2 \
+	add-all-available-locales.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/add-all-available-locales.patch
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/etc/profile.d
+}
