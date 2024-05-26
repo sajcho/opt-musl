@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpEBPYg8d9ti3fU7qyovUCExnupkjgAORENIOYr/qHdjm+DR1s6uAaTUzySywfyMciI22TZ/fwX7al1Vn/0qN1wo=
+SHA256 (Pkgfile) = d62f8facd4baab8b4aea4a75956797791d6d5205220bd180916cd2e131f43bc0
+SHA256 (.footprint) = 0032447549e7d915be0e1f4db3b3c86b1f7a411d57b8552ad4bb19ced74c1b3e
+SHA256 (ruby-3.3.1.tar.xz) = 0686941a3ec395a15ae2a852487b2a88e5fb8a5518e188df00d8d1bb71a6349b
+SHA256 (fix-get_main_stack.patch) = 81057f124ca80af0efdf2074b0d113442b8d094e130a80a4a9de675772d5ffbd

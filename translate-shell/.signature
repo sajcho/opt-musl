@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpJU1woqINvXXOSiMJe5toFkpjlt4HrxlRMpMLwYseTL5p8hL7kdw1T6NB2QXYYRrzM+xwl2rmtzw5lFDezJ3GwE=
+SHA256 (Pkgfile) = 735a5fa19590163f502f234c93251ad69377fee6d192b95a40f490c7b3b1fb64
+SHA256 (.footprint) = 46c7f4ff4078367b37491df176cb9a6531e02dda8a027064c5d9b4765a07b08c
+SHA256 (translate-shell-0.9.6.12.tar.gz) = 4c4843a8c66276190535b8435775ecb5d9c8286083a33cdbe2db608eba93ca97

@@ -1,0 +1,28 @@
+# Description:	Libraries for working with WebP images
+# URL:		https://developers.google.com/speed/webp
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	giflib libpng tiff
+
+name=libwebp
+version=1.4.0
+release=1
+source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DWEBP_BUILD_VWEBP=OFF \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}

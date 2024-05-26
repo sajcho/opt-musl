@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpLh/ziK9nOYAkMh80VIVucoEXJ5F1qgTaR2EpO85oJ3Xm/1HJmLdU066+4TEMJfA5JsWWSlIsj3jMCpeDmSakAA=
+SHA256 (Pkgfile) = 337efcdac157899e12ef32598807264b73055dab145c25082f2c94c4404bde25
+SHA256 (.footprint) = 3c53cf78e00e8f6702b6142aa03f07459c5eb97dff4a74d76d687cb84d9f66cf
+SHA256 (asciidoctor-2.0.22.tar.gz) = 88b56b1fdd1bcfd097addc892c6071c76cb80409847f4765ae3e15d890543e6c
