@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpO4qmjYFQ/eEmGbfZFexHFyUR0JwHHZ1dZJ/0LNnX/BWqfp9kEbvl4kqhktE/d41lJqBNRM69MmBvK1FwfB34g4=
+SHA256 (Pkgfile) = 126222af97f96079dd14b2e5adeb6d58b2e971d86bd3b237d16172253a1ddee2
+SHA256 (.footprint) = 49a61b0c5de34abb6c232c1cf923f562998b97d0d503c124cabf948b62a03b28
+SHA256 (squashfs-tools-4.6.1.tar.gz) = 94201754b36121a9f022a190c75f718441df15402df32c2b520ca331a107511c

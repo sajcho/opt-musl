@@ -1,0 +1,20 @@
+# Description:	a clean C library for processing UTF-8 unicode data
+# URL:		https://juliastrings.github.io/utf8proc/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=utf8proc
+version=2.9.0
+release=1
+source=(https://github.com/JuliaStrings/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	make
+
+	make prefix=/usr DESTDIR=$PKG install
+
+	cp $PKG/usr/lib/pkgconfig/{lib,}utf8proc.pc
+	sed -i 's,^\(Name: \)lib\(utf8proc\),\1\2,' \
+		$PKG/usr/lib/pkgconfig/utf8proc.pc
+}
