@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpHIoJeMpx5TXHTnk6ItZk6VL4qcV7+2/GcrEiJz0N+86R+6/Bzu0J+S5UvtlWCTrZ5wMJtnrZ7OOLEEBwxrLcQ0=
+SHA256 (Pkgfile) = b1c80bdda1635566b092c0a8e650a90860b4456c983de992d491e0f289b7999a
+SHA256 (.footprint) = bd04255d0e7a9a35b1d440c94bde05edd59f1c325414e44039ab16496a2d558a
+SHA256 (enca-1.19.tar.xz) = 3a487eca40b41021e2e4b7a6440b97d822e6532db5464471f572ecf77295e8b8
+SHA256 (enca-bad-file-descriptor.patch) = 270c7c0abaea5f3d10173b58849200d4106675d3127a0b9b8ce1fc3dcf775acb
