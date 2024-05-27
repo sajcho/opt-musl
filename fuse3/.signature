@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpF8bxqUEfHvyiH+Z6Cu+4XOni4/ftoGSqEmIRn+7yvqXlpcRWKgL9YpRtlao9DJfOEbdQ4B/ExXc5uU0qkEb3Ac=
+SHA256 (Pkgfile) = 8304205099ba5f42dca7dabe2de5d14cb3e09c38e66f0d9576db23d16cfddcc7
+SHA256 (.footprint) = 4b65fb9fddfaa160174d3bc23a8d582ddab053718ae8b35691d2aef49a0c5265
+SHA256 (fuse-3.16.2.tar.gz) = f797055d9296b275e981f5f62d4e32e089614fc253d1ef2985851025b8a0ce87
+SHA256 (fix-realpath.patch) = e9f18e86545f558fb6ab92ae1778fe0392b06ca50ec44389db2c75a2bf95b5dd

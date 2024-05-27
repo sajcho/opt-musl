@@ -1,0 +1,9 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpJlc1PTsrmiEf7ckQm+S1L6wrQbc/WzJo0E4RaJuH5Amm9cR6Zh+WoqNqOVAfPZr+Opjc/ehzXEIRBHh8qgCEgk=
+SHA256 (Pkgfile) = 634db798e881957c5a0f57f0fa706c817f398c88dc7fdc985fafd0a3dc0313d5
+SHA256 (.footprint) = 16467b3d55f211e0671c2aac37704dbc239ae108a0911e82b5dcbcf44f7d3085
+SHA256 (grub-2.12.tar.xz) = f3c97391f7c4eaa677a78e090c7e97e6dc47b16f655f04683ebd37bef7fe0faa
+SHA256 (extra_deps.lst) = 78d83a1c8ed69220853ac90114e0c7ea13fda00fbe6c81b1fedb1296479e62b4
+SHA256 (grub.default) = 7b64fd148590acb992bdedece051313581ea13471c5bd91066059c4cb460ae0c
+SHA256 (saux-grub-theme.tar.xz) = b7ffbc5bb0a56aca94f3a8a838e649cc54421b79a6fa5ebb17e3ccc58cade5c9
+SHA256 (unifont-15.1.01.bdf) = 62fc033e1141743b69aa6a3e67dc69f27a6200d17e290b220a7a9e21405f984e
