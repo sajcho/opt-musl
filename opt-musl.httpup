@@ -1,0 +1,6 @@
+# opt-musl ports collection
+#
+# https://github.com/sajcho/opt-musl
+
+ROOT_DIR=/usr/ports/opt-musl
+URL=https://raw.githubusercontent.com/sajcho/opt-musl/main
