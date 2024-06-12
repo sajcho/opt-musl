@@ -303,9 +303,9 @@ f:7eaabe24e8aa1dcdab10d17693f12f75:lm-sensors/.footprint
 f:6e347b04963f1781f66c744d26d48a33:mpg123/Pkgfile
 f:b0bf0f1ec9919bc09d84c8f4cb063cbd:mpg123/.signature
 f:494555ec180699da80982b01ac878823:mpg123/.footprint
-f:773c3951bd326ae660e977cac96161dc:libsndfile/Pkgfile
-f:be7c919692a2b5259364a9ed60577cc8:libsndfile/.signature
-f:5e4163bc4d48206993730d75a3400449:libsndfile/.footprint
+f:b54ebeabf27838a1dff803f2e0d86b09:libsndfile/Pkgfile
+f:e7b1aab449448f3f7345e45bd5793360:libsndfile/.signature
+f:1d40375bb7780689284af0547001ee8f:libsndfile/.footprint
 f:907f35c20a9af0c3f53ade7d27fd463c:help2man/Pkgfile
 f:05db4833e1132aeeedfbfbb719b6494c:help2man/.signature
 f:1abe4d287ed5dfefd4eb4deed60a4f1e:help2man/.footprint
