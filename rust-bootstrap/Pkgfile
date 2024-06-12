@@ -1,0 +1,80 @@
+# Description:	The Rust language with Cargo included - Bootstrap
+# URL:		http://www.rust-lang.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	llvm-toolchain
+
+name=rust-bootstrap
+_realname=rustc
+version=1.78.0
+release=1
+
+source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
+	0001-dist.rs-change-dir-libexec-to-lib.patch \
+	0002-tool.rs-change-dir-libexec-to-lib.patch)
+
+build() {
+	cd ${_realname}-${version}-src
+
+	export CC="gcc"
+	export CXX="g++"
+
+	# use /usr/lib instead of /usr/libexec
+	patch -p1 -i $SRC/0001-dist.rs-change-dir-libexec-to-lib.patch
+	patch -p1 -i $SRC/0002-tool.rs-change-dir-libexec-to-lib.patch
+
+	./configure \
+		--build="$CHOST" \
+		--host="$CHOST" \
+		--target="$CHOST" \
+		--prefix="/usr" \
+		--release-channel="stable" \
+		--llvm-root="/usr/lib" \
+		--llvm-libunwind=no \
+		--enable-llvm-link-shared \
+		--disable-llvm-static-stdcpp \
+		--enable-extended \
+		--enable-locked-deps \
+		--enable-profiler \
+		--enable-vendor \
+		--disable-docs \
+		--disable-rpath \
+		--tools="analysis,cargo,clippy,rustfmt,rust-analyzer,rust-analyzer-proc-macro-srv,rustdoc,rust-demangler,src" \
+		--python="python3" \
+		--set="build.optimized-compiler-builtins=false" \
+		--set="rust.musl-root=/usr" \
+		--set="rust.backtrace-on-ice=true" \
+		--set="rust.codegen-units=1" \
+		--set="rust.codegen-units-std=1" \
+		--set="rust.deny-warnings=false" \
+		--set="rust.parallel-compiler=false" \
+		--set="rust.remap-debuginfo=true" \
+		--set="rust.description=SAUX-x86_64 musl" \
+		--set="target.$CHOST.musl-root=/usr" \
+		--set="target.$CHOST.crt-static=false" \
+		--set="target.$CHOST.cc=$CHOST-cc" \
+		--set="target.$CHOST.cxx=$CHOST-c++" \
+		--set="target.$CHOST.ar=$CHOST-ar" \
+		--set="target.$CHOST.linker=$CHOST-cc" \
+		--set="target.$CHOST.profiler=/usr/lib/clang/18/lib/x86_64-unknown-linux-musl/libclang_rt.profile.a" \
+		--set="target.$CHOST.llvm-config=/usr/bin/llvm-config"
+
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+	export RUST_BACKTRACE="1"
+
+	# saux uses -flto=auto -ffat-lto-objects - turn it off
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
+
+	/usr/bin/python3 ./x.py build --config=config.toml ${JOBS:+-j ${JOBS}}
+
+	DESTDIR=$PKG /usr/bin/python3 ./x.py --config=config.toml install
+
+	# Cleanup
+	rm -r $PKG/etc
+	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/zsh
+	rm $PKG/usr/lib/rustlib/{components,install.log,manifest-*,rust-installer-version,uninstall.sh}
+
+	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/$CHOST/lib/*.so
+}

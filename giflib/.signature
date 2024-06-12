@@ -1,0 +1,8 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpKj1PZ4mLttDcdQQDmph3iKZ4UKBI2Xdvg2NWf0XQlOJXEYmliI8PzGZub99qBzPi0CgjOGurOmMEcwbFdT5SAA=
+SHA256 (Pkgfile) = 7548c0b7508d998c4d0c2d0f9659346d6359665c4edfbd9fd3e99790812795b4
+SHA256 (.footprint) = a5628048f9a799db409d89f0530430358373f380d9b880d338508886767bf2b8
+SHA256 (giflib-5.2.2.tar.gz) = be7ffbd057cadebe2aa144542fd90c6838c6a083b5e8a9048b8ee3b66b29d5fb
+SHA256 (CVE-2021-40633.patch) = b76de71ede0a51035a5af97c23ef0a5ab0b5f8be37f41722260342dab8707455
+SHA256 (correct-document-page-install.patch) = 2b9a5683dda31c06a54c11d6d6f2fa3814cac38a6338a4b3f37c21286bd0b701
+SHA256 (dont-build-html-pages-images.patch) = 86a84ff0df80b5c89ac637b674fc47e2050a265776861bf7006b1c0954555f21

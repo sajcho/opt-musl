@@ -1,0 +1,23 @@
+# Description:	A library for reading and writing GIF images
+# URL:		http://giflib.sourceforge.net
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=giflib
+version=5.2.2
+release=1
+source=(http://download.sourceforge.net/${name}/${name}-${version}.tar.gz \
+	CVE-2021-40633.patch \
+	correct-document-page-install.patch \
+	dont-build-html-pages-images.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/CVE-2021-40633.patch
+	patch -p1 -i $SRC/correct-document-page-install.patch
+	patch -p1 -i $SRC/dont-build-html-pages-images.patch
+
+	make V=1
+
+	make PREFIX=$PKG/usr install
+}

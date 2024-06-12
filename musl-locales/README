@@ -1,0 +1,5 @@
+# If you want to use a locale, add the line
+
+export MUSL_LOCPATH="/usr/share/i18n/locales/musl"
+
+# to your .profile or .bash_profile

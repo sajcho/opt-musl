@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpGp4iMikOhok3isaXe3BsLEdMTUfOZ0Qt9+02jK/2K+GHpYBNYnNCUSZoj4y/Q8AD2ui4bp0YN2dOxLF8qA1OgQ=
+SHA256 (Pkgfile) = e5d64662cb5f36d7e0a1c70e3c27614d5f86f4e35f5d92d3e9b504cdba33be16
+SHA256 (.footprint) = 488ad29952d33973d77b09bbc6c805884449d65d96db660f9f48e5bef6fba834
+SHA256 (fmt-10.2.1.tar.gz) = 1250e4cc58bf06ee631567523f48848dc4596133e163f02615c97f78bab6c811
+SHA256 (Fix-handling-of-static-separator.patch) = bfe9c5c7076781174950c00173c443c0b8c2587aa0637136413fe95effe8bc02

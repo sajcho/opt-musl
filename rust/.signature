@@ -1,0 +1,16 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpM3ElnlKfGuqhfLXrf4pQCrxvm4vQrkSSQiKuLwGWvSfXGlxz1VMqvnqt+Dc1IkjIp2vLFpmzhhDyXvvqi0qRwc=
+SHA256 (Pkgfile) = f2342c6c3f02c989de6ff962c4004b8f0f79ed2b723ce6ac5ce462775a8a5e96
+SHA256 (.footprint) = 95a1e988316f90d5e963f4a533a0f69c0b5de580a4779aa3e8ed1a7585c449fb
+SHA256 (rustc-1.78.0-src.tar.xz) = 8065824f0255faa3901db8206e6f9423f6f8c07cec28bc6f2797c6c948310ece
+SHA256 (0001-dist.rs-change-dir-libexec-to-lib.patch) = d31c7cff30566fe9607342ddcf5dac0c1804df8946a0686bda2ad517338abdca
+SHA256 (0002-tool.rs-change-dir-libexec-to-lib.patch) = c6300cdb65e6481bd6974d51bfad2c253a63bb7312f87f78b4dbff4489278174
+SHA256 (0003-gcc-eh-libunwind.patch) = 6e27927f7f67e28a6587dee64518c2547be9ac54c285654f133cb2072d4ea90f
+SHA256 (0004-do-not-install-libunwind-source.patch) = 85a3737a450995c960357362a3d38753bd99252d6371d92277727a3156809c52
+SHA256 (0005-musl-fix-linux_musl_base.patch) = a706848470efa75a8474aaff21b49f1c2470f90afdc231d146885c8ebbc59e5f
+SHA256 (0006-no-export-ld-library-path.patch) = 623c40ade5390a56c414626e06a2bf575895a84e2dc92ac69df515cc3ec9b98b
+SHA256 (0007-move-py-scripts-to-share.patch) = c6f8850612617a983d5f1bc4f032bd4264ef52b9f93cef69ee04677b7053d9f5
+SHA256 (0008-install-template-shebang.patch) = 3ca1d1163157ec5ec36513ba282ef26dad2f93422d5bf24d5c2f4941c2b94c45
+SHA256 (0009-need-rpath.patch) = 01644c622a522a81d40a7b703e4b0ed1f544d7568be7a54a579d5d73f0dd001c
+SHA256 (0010-need-ssp_nonshared.patch) = 4803464b6aede45186386344a0c63bc25f3f1436f6b1c04d84419d32ea88c1c3
+SHA256 (0011-revert-rustc_codegen_ssa-use-try_canonicalize-in-rpath.patch) = bed2c08ec43b7ac6de0a01bcfa8d62eadc6f23b8db41e63492c9b132f06cdac6

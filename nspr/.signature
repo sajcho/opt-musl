@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpO+42vBQEfqAXzJP+1a+K7yc2JOsETIqVKkJfLGuov1CYWMFwoPTbd6C/EvfR65iTAfqxEn7oA0VcF3MIIuWAw8=
+SHA256 (Pkgfile) = 96cd39fa6fe77edb7d12198a817bfc7688cc56c17a2b86866e640e0c60f0e224
+SHA256 (.footprint) = 1cfda95212f1299e43d9441913be360cf01d7c04938a7e7b1084fcf433dc1f08
+SHA256 (nspr-4.35.tar.gz) = 7ea3297ea5969b5d25a5dd8d47f2443cda88e9ee746301f6e1e1426f8a6abc8f
+SHA256 (nspr.pc.in) = 57a655d034221760ce10278d2050bbe040b1db55be3db6e3a30f04a570877b71

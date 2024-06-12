@@ -1,0 +1,25 @@
+# Description:	Free Lossless Audio Codec.
+# URL:		http://xiph.org/flac/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libogg
+
+name=flac
+version=1.4.3
+release=1
+source=(https://downloads.xiph.org/releases/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-ogg \
+		--enable-static \
+		--disable-thorough-tests
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}

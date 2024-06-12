@@ -1,0 +1,27 @@
+# Description:	POSIX library for priority-based and scheduled multi threading
+# URL:		ftp://ftp.gnupg.org/gcrypt/npth/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=npth
+version=1.7
+release=1
+source=(https://gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
+		--prefix=/usr \
+		--enable-install-npth-config
+
+	# don't depend on silly glibc internals
+	sed -e 's/defined(__USE_UNIX98) || defined(__USE_XOPEN2K)/1/' -i src/npth.h
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}

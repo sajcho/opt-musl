@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpNdpZcFwgmXvj2HsBkKi5tD3TCEzTh5CJzD4phMtPvCugvooaxLOwDptF1vPxhHuU1rZ13qloT/3cn5iiF7YGgA=
+SHA256 (Pkgfile) = c29a37fa7a157f15dedcb8119264939b5ac56a019fda66adce0bacca5e60e137
+SHA256 (.footprint) = 26cfb1dd44c5356afcdba7aa054685d535b15b4ab96897ad7bd24a6c9a14b9fe
+SHA256 (cpio-2.15.tar.bz2) = 937610b97c329a1ec9268553fb780037bcfff0dcffe9725ebc4fd9c1aa9075db

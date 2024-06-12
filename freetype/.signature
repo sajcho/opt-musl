@@ -1,0 +1,8 @@
+untrusted comment: verify with opt-musl.pub
+RWQz1jdGqyZrpCt/ijoNUjs62TTAlrh8plCU8p93GUsOqSaG7LymiGbXyh+xYV8HGNLlpioDHdgV1Sojm/O0bwSTqwQnQazg8g8=
+SHA256 (Pkgfile) = 4deb0da9c6a4bbac2e69589677ada7503a725d45909e475ca1e7701b61b51996
+SHA256 (.footprint) = 968afefb6185923050e31ae03d291656bba318192d25372d5b0a9c41b0a2a1ae
+SHA256 (freetype-2.13.2.tar.xz) = 12991c4e55c506dd7f9b765933e62fd2be2e06d421505d7950a132e4f1bb484d
+SHA256 (0001-Enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
+SHA256 (0002-Enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
+SHA256 (0004-Enable-long-PCF-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e

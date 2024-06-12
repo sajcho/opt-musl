@@ -1,0 +1,32 @@
+From 063cc2a0dc7a7f7d89fb6c8505c65c7780de1667 Mon Sep 17 00:00:00 2001
+From: sajcho <saux.aarch64@gmail.com>
+Date: Tue, 7 May 2024 15:12:26 +0200
+Subject: [PATCH] tool.rs: change dir libexec to lib
+
+---
+ src/bootstrap/src/core/build_steps/tool.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/bootstrap/src/core/build_steps/tool.rs b/src/bootstrap/src/core/build_steps/tool.rs
+index 3c200112103..d482bbc3f9a 100644
+--- a/src/bootstrap/src/core/build_steps/tool.rs
++++ b/src/bootstrap/src/core/build_steps/tool.rs
+@@ -682,11 +682,11 @@ fn run(self, builder: &Builder<'_>) -> Option<PathBuf> {
+             allow_features: RustAnalyzer::ALLOW_FEATURES,
+         });
+ 
+-        // Copy `rust-analyzer-proc-macro-srv` to `<sysroot>/libexec/`
++        // Copy `rust-analyzer-proc-macro-srv` to `<sysroot>/lib/`
+         // so that r-a can use it.
+-        let libexec_path = builder.sysroot(self.compiler).join("libexec");
+-        t!(fs::create_dir_all(&libexec_path));
+-        builder.copy_link(&path, &libexec_path.join("rust-analyzer-proc-macro-srv"));
++        let lib_path = builder.sysroot(self.compiler).join("lib");
++        t!(fs::create_dir_all(&lib_path));
++        builder.copy_link(&path, &lib_path.join("rust-analyzer-proc-macro-srv"));
+ 
+         Some(path)
+     }
+-- 
+2.45.0
+
