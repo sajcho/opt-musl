@@ -1,6 +1,0 @@
-untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpMiHlCEfpo2ER4qyC2H0+OvZ5ImZamPsbDh78AMu7yZjyhIaiEGCMEn1Uf3DSA6lqjLqNZigpXEACXRu+DU5fQY=
-SHA256 (Pkgfile) = 39ea97516ac05bcb93cff07e190ced8550771c20e00c4ee5cb57ab9b64a47183
-SHA256 (.footprint) = cbb56e9e27e8a5e97be0f0f6cad4c362de2e4f3e071d9e211b0d2b70168f357c
-SHA256 (rpcbind-1.2.6.tar.bz2) = 5613746489cae5ae23a443bb85c05a11741a5f12c8f55d2bb5e83b9defeee8de
-SHA256 (rpcbind.run) = a42130df403e01f50e37c7b9b9980694b6f5da74728cb888e605adb8bf633a7d

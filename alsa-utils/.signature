@@ -1,7 +1,0 @@
-untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpLr5u3vyBLnbWIOFtlx/gG113+o3wRz+jpQNmLK1G4i8BZ5c8iVBQ0b2Ozw6TMEG9Rw2hebpa3r6wrZLbVzRWAM=
-SHA256 (Pkgfile) = f33373776bb7e9ca1975dc0853d6f9623f3b8591ef3eb135520641a56bd36739
-SHA256 (.footprint) = 2c4a4d9ecf9e48e4fd64391b91271a4442c49affa14e4b6725ca92ae835621e5
-SHA256 (alsa-utils-1.2.11.tar.bz2) = 9ac6ca3a883f151e568dcf979b8d2e5cbecc51b819bb0e6bb8a2e9b34cc428a7
-SHA256 (alsa.finish) = d00e9ef211c9f11b3ef836c5ee7c6b763cacb426fbd3d9697f03048e55c0c21c
-SHA256 (alsa.run) = 5a78c1064c269f52e03300067a9c6a6cf7c93d526e892fcbae914f0de744165b

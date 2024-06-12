@@ -1,6 +1,0 @@
-untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpMlcVxKK5ttrrTMx1wSSNn2YblHbhgnPDfN3PWz5+FbOQqvisaFiiKwMGXm8KdssNrz63x++ck9o7MII4q/43Aw=
-SHA256 (Pkgfile) = 48c470100cc2a98cfea1d2be6a621f32c72fde71ad36c8718274818db7ecd6e0
-SHA256 (.footprint) = 8fe78b95a19c625afeba41db345d4a56a1c74de8ea52467a4b335da7b5b04e8a
-SHA256 (srt-1.4.3.tar.gz) = c06e05664c71d635c37207a2b5a444f2c4a95950a3548402b3e0c524f735b33d
-SHA256 (fix-cmake.patch) = 66c8be803047ce6f654cdcfe6481aa22922ee63c855c82cf84eb072a8c0fe97c

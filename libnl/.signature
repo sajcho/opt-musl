@@ -1,6 +1,0 @@
-untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpPz7TBIBcOc8k++G60JEO37//KrOAgpABRzzQaqF5Ij0phF7Ax1whCi0MH/apYq05wNzZOa52xrAgWTS4yBOZgE=
-SHA256 (Pkgfile) = 4049547277babe16ca5af2effd208e4047ee573bc706e2e21c9e29eec1a29b74
-SHA256 (.footprint) = 5c99ad59b13a92148dd9fa0e9d637477a1db70138b98886b33a77558e3efb304
-SHA256 (libnl-3.9.0.tar.gz) = aed507004d728a5cf11eab48ca4bf9e6e1874444e33939b9d3dfed25018ee9bb
-SHA256 (libnl-musl.patch) = fd8dc54e7718b1a91ae76a2c50c1c4aac1f7aff84ac5a0131dce451b476a268e
