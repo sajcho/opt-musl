@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpJaj1l20ugypg/u+np/04YtKQ/s+cXrPCn8iabtV75d1KQ7/loB5TZDA5NTLNbeK4en9D5dAmihxpLTynqVKQwM=
-SHA256 (Pkgfile) = 650439b5b743123f3b27b4474ce1440fbb1779c8903175fdf1a97f6148436271
-SHA256 (.footprint) = 77bbe1c4bfae316ed4edd8e3a5c88c5a0332032d40c1cdca6abd3b4dffb8fb91
+RWQz1jdGqyZrpEr4mFRE3wMkeI0JxtHp3UHl+aMOISGKWgbqQN6KPxC8mPiZPOIvagUyrSiuWb+J1fs0/8dl72U9QP7FAeTcAAw=
+SHA256 (Pkgfile) = 1d41623c979d6908ad11107d2b88b1e9e0e7550cf644d84075d53538ac7502b5
+SHA256 (.footprint) = 5ce9181b64e3cb49ba538e643161082e92a137b2bc00508bc8dfbde3b6540ca0
 SHA256 (libsndfile-1.2.2.tar.gz) = ffe12ef8add3eaca876f04087734e6e8e029350082f3251f565fa9da55b52121
