@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpAtNv6qlbcZkch7KVsOiUloTSSlqnRIpfc7IlL/j3Z+qV9T/3Q4KPUJJd9sQzK0Yj5gVTHZa6w97LNAhKzEMOgk=
-SHA256 (Pkgfile) = ff2cd22a7b964384c9b2a47016558688b58108c972f24108db1c52c90de6bad3
-SHA256 (.footprint) = 2bc88a91bd401f2a6d4117ff0c9dc89ffced2b452d54abe7a45b42b6c59927aa
-SHA256 (libaom-3.9.0.tar.gz) = a662e22299752547488c8e1412c0b41981efa8dbb1a25c696ded7ba9c472e919
+RWQz1jdGqyZrpBw+xSqJhn7N/DGBFZGK3X6NfvfsS/dL3kG4U+vHjri8YDVKyG2mrMnaVvZMAIxP9ZbUBAc3iRKiCZO9m6DRdwU=
+SHA256 (Pkgfile) = 62f2bc66e819a47b5884b2fa6db11d72faddf73ae6855b43ebad86a2c7d6be37
+SHA256 (.footprint) = b4a2006df48b23c5ddfa3328d2d43fb49c949768802bf29343f87930cd90b9d2
+SHA256 (libaom-3.9.1.tar.gz) = dba99fc1c28aaade28dda59821166b2fa91c06162d1bc99fde0ddaad7cecc50e
 SHA256 (posix-implicit.patch) = 697f2e06675be9e52c889d08a4e63964d4132971de552394bd6f725e89bfe71f
