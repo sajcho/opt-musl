@@ -1,8 +1,8 @@
 untrusted comment: verify with opt-musl.pub
-RWQz1jdGqyZrpM3ElnlKfGuqhfLXrf4pQCrxvm4vQrkSSQiKuLwGWvSfXGlxz1VMqvnqt+Dc1IkjIp2vLFpmzhhDyXvvqi0qRwc=
-SHA256 (Pkgfile) = f2342c6c3f02c989de6ff962c4004b8f0f79ed2b723ce6ac5ce462775a8a5e96
-SHA256 (.footprint) = 95a1e988316f90d5e963f4a533a0f69c0b5de580a4779aa3e8ed1a7585c449fb
-SHA256 (rustc-1.78.0-src.tar.xz) = 8065824f0255faa3901db8206e6f9423f6f8c07cec28bc6f2797c6c948310ece
+RWQz1jdGqyZrpCGggpU+pBq0j+kl9rrP7i+QVMHO9ta88a65awAqPX19Fl4rXvshmQ5WLozSqwjuJYBqLUYHCuxx9G0xM4NfRAc=
+SHA256 (Pkgfile) = 2a6f1d14fa8ae3de1fa1a7a7c13f219b3235c05e6263e8c8f3734face0569650
+SHA256 (.footprint) = 237efd21730903c1d1bfa31ea5fa09e069ac3b7115fd7c80fc7194449532ad15
+SHA256 (rustc-1.79.0-src.tar.xz) = ab826e84b8d48ec6eda3370065034dea8c006f6a946d78a9ba12bcb50e6d3c7a
 SHA256 (0001-dist.rs-change-dir-libexec-to-lib.patch) = d31c7cff30566fe9607342ddcf5dac0c1804df8946a0686bda2ad517338abdca
 SHA256 (0002-tool.rs-change-dir-libexec-to-lib.patch) = c6300cdb65e6481bd6974d51bfad2c253a63bb7312f87f78b4dbff4489278174
 SHA256 (0003-gcc-eh-libunwind.patch) = 6e27927f7f67e28a6587dee64518c2547be9ac54c285654f133cb2072d4ea90f
